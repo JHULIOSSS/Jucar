@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mochiy Pop One", sans-serif;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    gap: 4rem;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#barra-inicial ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #005800;
+}
+
+li {
+    display: inline-block;
+    margin-right: 100px;
+    /* Espaçamento entre os itens */
+
+}
+
+span {
+    color: orangered;
+}
+
+article,
+section {
+    margin: 20px;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra-inicial {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#barra-inicial img {
+    max-width: 150px;
+}
+
+#jucaInicial {
+    width: 100rem;
+}
+
+.juca-imagens img {
+    display: flex;
+
+}
+
+.abertura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px 15px;
+}
+
+.abertura img {
+    /* max-width: 250px; */
+    width: 60rem;
+    height: 50rem;
+    border-radius: 20px;
+}
+
+.abertura-filho h2 {
+    color: rgb(0, 51, 8);
+    font-size: 80px;
+    margin: 10px;
+}
+
+.abertura-filho p {
+    color: rgb(0, 8, 1);
+    font-size: 20px;
+}
+
+#curiosidadeJuca {
+    width: 100rem;
+    border-radius: 20px;
+}
+
+.conteudo-01 {
+    background-image: url(IMGS/opc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.o-juca {
+    background-color: #005700;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.o-juca h1 {
+    color: #dadada;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px;
+}
+
+.o-juca p {
+    color: #f8fff8;
+    padding: 25px 50px;
+    text-align: justify;
+}
+
+.imagens-juca img {
+    padding: 40px 30px;
+    margin: 10px;
+}
+
+#encontros {
+    text-align: center;
+    width: 100rem;
+}
+
+.econtro-paco {
+    height: 500px;
+    background-color: #f8fff8;
+}
+
+.econtro-paco h1 {
+    color: #002c00;
+
+}
+
+#curiosidadeJuca {
+    background-color: #f1f7f1;
+    border-radius: 10px;
+    border: solid chartreuse;
+    margin-top: -4%;
+    width: 100rem;
+}
+
+.curiosidades {
+    text-align: center;
+}
+
+.curiosidades h1 {
+    margin-bottom: 3%;
+    font-size: 40px;
+    color: #002c00;
+}
+
+.curiosidades img {
+    width: 30rem;
+}
+
+.curiosidades p {
+    text-align: justify;
+    margin: 20px;
+}
+
+#perguntasFreqentes {
+    border-radius: 30px;
+    background-color: #2dc200;
+    width: 100rem;
+    margin-top: -4%;
+
+
+}
+
+.perguntas-frequentes {
+    font-size: 30px;
+    margin-top: 3%;
+    text-align: center;
+    color: #ffffff;
+}
+
+details {
+    color: #dadada;
+    text-align: center;
+    font-size: 15px;
+    margin: auto;
+    width: 90rem;
+
+}
+
+details p {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail {
+    background-color: #0e7700;
+    border-radius: 10px;
+    padding: 20px 20px;
+    margin-top: 1%;
+}
+
+.detail details summary {
+    background-color: #002c00;
+    padding: 1%;
+    border-bottom: 5px solid #c2e64e;
+    border-radius: 20px;
+}
+
+.inferior img {
+    max-width: 100%;
+}
+
+.img-u img {
+    width: 1000px;
+    height: 450px;
+    margin-left: 22%;
+}
+
+.final-img img {
+
+    width: 10rem;
+}
+
+section {
+    margin-top: 2%;
+    text-align: center;
+    max-width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-flow: nowrap;
+    gap: 5px;
+    justify-content: center;
+}
+
+/* relogio */
+
+.clock {
+    background-image: url(IMGS/opc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.time {
+    font-size: 2rem;
+    text-align: center;
+    color: #005700;
+}
+
+/* final do relogio */
+
+/* rodape */
+footer img {
+    max-width: 6%;
+    margin-left: 47%;
+}
+
+footer p {
+    margin-top: 5%;
+    text-align: center;
+    color: #002c00;
+}
+
+/* medicinal */
+#medicina-pg,
+p {
+    text-align: justify;
+    margin: 25px;
+}
+
+.cha {
+    display: flex;
+    align-items: center;
+}
+
+.cha img {
+    margin-left: 2%;
+    margin-right: 10%;
+}
+
+/* fim */
+
+/* discentes */
+.alunos {
+    margin-top: 1%;
+    display: contents;
+    text-align: center;
+
+}
+
+/* final */
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+.whatsapp {
+    margin-top: 50%;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #006300;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #ffffff;
+    z-index: 1000;
+}
