@@ -291,6 +291,10 @@ p {
     margin: 25px;
 }
 
+#Decocto-edit {
+    text-align: center;
+}
+
 .cha {
     display: flex;
     align-items: center;
@@ -299,6 +303,10 @@ p {
 .cha img {
     margin-left: 2%;
     margin-right: 10%;
+}
+
+figure {
+    text-align: center;
 }
 
 /* fim */
